@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+html, body {
+  margin:0;
+  padding:0;
+  font-family:'Jost';
+}
+
+.nav {
+  position:fixed;
+  height:100%;
+  width:15%;
+  background:#ebe4d4;
+  padding:100px 30px 0 30px;
+  z-index:0;
+  
+  h2 {
+    font-size:15px;
+    text-align:right;
+  }
+  .topics {
+    text-align:right;
+  }
+}
+
+.topbar {
+  background: #200000;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  opacity: 0.68;
+  z-index:0;
+  h1 {
+    font-size:21px;
+    text-align:right;
+    padding:15px 0;
+    color:#fff;
+    z-index:999;
+  }
+  .topics {
+    width: 15%;
+    text-align: right;
+    padding: 0 30px;
+  }
+
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1, h2 {
+  font-weight:400;
+}
+
+@media only screen and (max-width: 768px){
+    .nav {
+      width:25%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+  .nav {
+    width:100%;
+    padding:0;
+  }
+}
+
+
