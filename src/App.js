@@ -27,7 +27,7 @@ const App = () => {
             <section className="sidebar">
               <div className="sidebar-container">
                 <h1 id="tagline">Need a poem? Access your favorite poetry with 247.</h1>
-                <h2>247 hosts a collection of poetry<br></br>from the <a href="https://poetrydb.org/index.html" target="_blank" rel="noreferrer">PoetryDB</a> database.</h2>
+                <h2>247 hosts a collection of poetry<br></br>from the <a href="https://poetrydb.org/index.html" target="_blank" rel="noreferrer">PoetryDB</a> API.</h2>
                 {/*<Search />*/}
               </div>
             </section>
