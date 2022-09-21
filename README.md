@@ -2,6 +2,8 @@
 
 This project hosts poetry data from the PoetryDB database. Poems are currently accessible by author name.
 
+A demo of the project can be viewed [here](https://daniellecanchola.com/poetry-react-app/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
