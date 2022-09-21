@@ -1,3 +1,7 @@
+# Project Description
+
+This project hosts poetry data from the PoetryDB database. Poems are currently accessible by author name.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
